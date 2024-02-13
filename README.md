@@ -1,3 +1,20 @@
-# PHP_2024
+## Суммирование целых чисел
 
-https://otus.ru/lessons/razrabotchik-php/?utm_source=github&utm_medium=free&utm_campaign=otus
+Создание своей библиотеке в целях **обучения**
+
+## Требования
+***
+
+- php >= 7.0
+
+## Установка
+
+```bash
+composer require afilippov/otus-composer-package-hw4
+```
+
+## Использование
+```php
+$math = new \Afilippov\OtusComposerPackageHw4\Math();
+echo $math->sum(1, 2);
+```

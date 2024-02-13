@@ -1,0 +1,12 @@
+{
+  "name": "afilippov/otus-composer-package-hw4",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Afilippov\\OtusComposerPackageHw4\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  }
+}
